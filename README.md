@@ -1,1 +1,1 @@
-# LLM-Vision-API-investigation
+# LLM Food Benchmark Acacdemic
