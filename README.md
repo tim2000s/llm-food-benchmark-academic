@@ -1,1 +1,1 @@
-# LLM Food Benchmark Acacdemic
+# LLM Food Benchmark Academic
