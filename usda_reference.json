@@ -1,0 +1,238 @@
+{
+  "_comment": "Ground-truth estimates for each test image. total_portion_carbs_g is the primary accuracy metric (carbs for the portion shown). per_100g values from USDA FoodData Central for main carb-contributing components. Carbs use EU convention (fiber excluded).",
+  "_reference_quality_key": "1=packet/label (highest), 2=weighed/measured, 3=portioned (not weighed), 4=visual estimate (lowest)",
+
+  "IMG_20200412_154249.jpg": {
+    "description": "Roast beef dinner: 5 medium-small roast potatoes, tenderstem broccoli, roast beef slices. Shared peas/beans on the side.",
+    "total_portion_carbs_g": 47.5,
+    "total_portion_carbs_range": [45, 50],
+    "reference_quality": 3,
+    "reference_source": "User estimate: 5 medium-small roast potatoes (~200g total, portioned not weighed) cross-referenced with USDA roast potato carb values, plus minimal carbs from beef and broccoli.",
+    "components": {
+      "roast_potatoes": {
+        "portion_g": 200,
+        "calories_per_100": 149,
+        "carbs_per_100": 21.6,
+        "fat_per_100": 4.5,
+        "protein_per_100": 2.9,
+        "fiber_per_100": 1.8
+      },
+      "roast_beef": {
+        "portion_g": 120,
+        "calories_per_100": 174,
+        "carbs_per_100": 0,
+        "fat_per_100": 7.6,
+        "protein_per_100": 26.1,
+        "fiber_per_100": 0
+      },
+      "tenderstem_broccoli": {
+        "portion_g": 80,
+        "calories_per_100": 35,
+        "carbs_per_100": 3.6,
+        "fat_per_100": 0.4,
+        "protein_per_100": 3.7,
+        "fiber_per_100": 3.3
+      }
+    }
+  },
+
+  "IMG_20250915_112359.jpg": {
+    "description": "Bakewell tart slice with jam layer and white icing drizzle.",
+    "total_portion_carbs_g": 40,
+    "total_portion_carbs_range": [37, 43],
+    "reference_quality": 2,
+    "reference_source": "Weighed slice (~90g) cross-referenced with typical commercial Bakewell tart composition (~47g carbs/100g).",
+    "components": {
+      "bakewell_tart": {
+        "portion_g": 90,
+        "calories_per_100": 410,
+        "carbs_per_100": 47,
+        "fat_per_100": 20,
+        "protein_per_100": 5.5,
+        "fiber_per_100": 1.5,
+        "sugars_per_100": 30
+      }
+    }
+  },
+
+  "IMG_20260209_192318.jpg": {
+    "description": "Tomato, chorizo and butter bean soup with 2 thick slices white bread.",
+    "total_portion_carbs_g": 60,
+    "total_portion_carbs_range": [57, 63],
+    "reference_quality": 1,
+    "reference_source": "Bread: packet label 20g carbs/slice x 2 slices = 40g. Soup: home-made, user-measured 20g total carbs.",
+    "components": {
+      "tomato_chorizo_butterbean_soup": {
+        "portion_g": 300,
+        "calories_per_100": 72,
+        "carbs_per_100": 6.7,
+        "fat_per_100": 3.0,
+        "protein_per_100": 4.0,
+        "fiber_per_100": 1.8,
+        "_total_carbs_g": 20
+      },
+      "thick_white_bread": {
+        "portion_g": 80,
+        "calories_per_100": 265,
+        "carbs_per_100": 50.0,
+        "fat_per_100": 3.2,
+        "protein_per_100": 9.0,
+        "fiber_per_100": 2.7,
+        "sugars_per_100": 5.0,
+        "_total_carbs_g": 40,
+        "_source": "Packet label: 20g carbs per slice x 2 slices"
+      }
+    }
+  },
+
+  "IMG_20260210_142258.jpg": {
+    "description": "Cheese sandwich on 2 slices thick-cut white bread.",
+    "total_portion_carbs_g": 40,
+    "total_portion_carbs_range": [38, 42],
+    "reference_quality": 1,
+    "reference_source": "Bread: packet label 20g carbs/slice x 2 slices = 40g. Cheddar cheese: negligible carbs.",
+    "components": {
+      "thick_white_bread": {
+        "portion_g": 80,
+        "calories_per_100": 265,
+        "carbs_per_100": 50.0,
+        "fat_per_100": 3.2,
+        "protein_per_100": 9.0,
+        "fiber_per_100": 2.7,
+        "_total_carbs_g": 40,
+        "_source": "Packet label: 20g carbs per slice x 2 slices"
+      },
+      "cheddar_cheese": {
+        "portion_g": 40,
+        "calories_per_100": 403,
+        "carbs_per_100": 1.3,
+        "fat_per_100": 33.1,
+        "protein_per_100": 24.9,
+        "fiber_per_100": 0
+      }
+    }
+  },
+
+  "MVIMG_20260222_204918.jpg": {
+    "description": "Matcha churros with pistachio ice cream. Restaurant dessert.",
+    "total_portion_carbs_g": 80,
+    "total_portion_carbs_range": [70, 90],
+    "reference_quality": 4,
+    "reference_source": "Restaurant dish, no precise composition available. User-revised estimate after considering visible portion size and typical churros density.",
+    "components": {
+      "matcha_churros": {
+        "portion_g": 150,
+        "calories_per_100": 370,
+        "carbs_per_100": 42,
+        "fat_per_100": 18,
+        "protein_per_100": 5,
+        "fiber_per_100": 1.0,
+        "sugars_per_100": 15
+      },
+      "pistachio_ice_cream": {
+        "portion_g": 70,
+        "calories_per_100": 220,
+        "carbs_per_100": 24,
+        "fat_per_100": 11,
+        "protein_per_100": 4,
+        "fiber_per_100": 0.5,
+        "sugars_per_100": 20
+      }
+    }
+  },
+
+  "MVIMG_20260303_200132.jpg": {
+    "description": "Chilli con carne with mixed beans on white rice.",
+    "total_portion_carbs_g": 58,
+    "total_portion_carbs_range": [54, 62],
+    "reference_quality": 3,
+    "reference_source": "Homemade recipe, portioned not weighed: 350g chilli (~7g carbs/100g), 120g cooked white rice (~28g carbs/100g).",
+    "components": {
+      "chilli_con_carne": {
+        "portion_g": 350,
+        "calories_per_100": 95,
+        "carbs_per_100": 7.0,
+        "fat_per_100": 3.5,
+        "protein_per_100": 8.5,
+        "fiber_per_100": 2.5
+      },
+      "white_rice_cooked": {
+        "portion_g": 120,
+        "calories_per_100": 130,
+        "carbs_per_100": 28.2,
+        "fat_per_100": 0.3,
+        "protein_per_100": 2.7,
+        "fiber_per_100": 0.4
+      }
+    }
+  },
+
+  "MVIMG_20260304_120022.jpg": {
+    "description": "Large bakery cookie (Battle Bakes and Cakes) with Mini Egg pieces and white chocolate.",
+    "total_portion_carbs_g": 47.5,
+    "total_portion_carbs_range": [45, 50],
+    "reference_quality": 2,
+    "reference_source": "Weighed cookie (~85g) cross-referenced with typical commercial bakery cookie composition (~58g carbs/100g).",
+    "components": {
+      "bakery_cookie": {
+        "portion_g": 85,
+        "calories_per_100": 480,
+        "carbs_per_100": 58,
+        "fat_per_100": 24,
+        "protein_per_100": 5.5,
+        "fiber_per_100": 1.5,
+        "sugars_per_100": 35
+      }
+    }
+  },
+
+  "MVIMG_20260308_142023.jpg": {
+    "description": "Breadcrumb-crusted fish with fried courgette slices.",
+    "total_portion_carbs_g": 17.5,
+    "total_portion_carbs_range": [15, 20],
+    "reference_quality": 4,
+    "reference_source": "User estimate of breaded fish portion (~180g) and fried courgette (~80g) cross-referenced with USDA values. Portions estimated not weighed.",
+    "components": {
+      "breaded_fish": {
+        "portion_g": 180,
+        "calories_per_100": 195,
+        "carbs_per_100": 8.5,
+        "fat_per_100": 10,
+        "protein_per_100": 16,
+        "fiber_per_100": 0.5
+      },
+      "fried_courgette": {
+        "portion_g": 80,
+        "calories_per_100": 70,
+        "carbs_per_100": 2.3,
+        "fat_per_100": 4.8,
+        "protein_per_100": 1.5,
+        "fiber_per_100": 1.0
+      }
+    }
+  },
+
+  "IMG-20260410-WA0016.jpg": {
+    "description": "Breakfast burrito (two halves). User-measured carb count.",
+    "total_portion_carbs_g": 34,
+    "total_portion_carbs_range": [32, 36],
+    "reference_quality": 2,
+    "reference_source": "User measurement and calculation from individual ingredients."
+  },
+
+  "IMG-20260410-WA0017.jpg": {
+    "description": "Neapolitan pizza capricciosa (whole pizza). Restaurant dish, no known carb count. Consistency test only."
+  },
+
+  "IMG-20260410-WA0018.jpg": {
+    "description": "Eggs benedict on two slices of sourdough with sweet potatoes and side salad. Restaurant dish, no known carb count. Consistency test only."
+  },
+
+  "IMG-20260410-WA0019.jpg": {
+    "description": "Crema catalana. Restaurant dessert, no known carb count. Consistency test only."
+  },
+
+  "IMG-20260410-WA0020.jpg": {
+    "description": "Paella with chicken and green beans (whole pan consumed). Restaurant dish, no known carb count. Consistency test only."
+  }
+}

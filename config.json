@@ -1,0 +1,35 @@
+{
+  "api_keys": {
+    "openai": "",
+    "claude": "",
+    "gemini": ""
+  },
+  "models": {
+    "gpt-5.4": {
+      "provider": "openai",
+      "display": "GPT-5.4"
+    },
+    "claude-sonnet-4-6": {
+      "provider": "claude",
+      "display": "Claude Sonnet 4.6"
+    },
+    "gemini-2.5-pro": {
+      "provider": "gemini",
+      "display": "Gemini 2.5 Pro"
+    },
+    "gemini-3.1-pro-preview": {
+      "provider": "gemini",
+      "display": "Gemini 3.1 Pro"
+    }
+  },
+  "rate_limits": {
+    "openai": 400,
+    "claude": 200,
+    "gemini": 60
+  },
+  "concurrency": {
+    "openai": 5,
+    "claude": 5,
+    "gemini": 2
+  }
+}
