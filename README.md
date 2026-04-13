@@ -39,6 +39,19 @@ Reproducibility and accuracy benchmark for LLM vision API carbohydrate estimatio
 ### Test images
 - `Test-Images/` — 13 food photographs used in the study
 
+## Known food identification issues
+
+Analysis of food item names across all 26,904 batch queries revealed identification errors in **8 of 13 images**. See Supplementary Material S4 in the Diabetologia submission for the full per-image breakdown. Key findings:
+
+- **Bakewell tart**: Claude 100% "Linzer torte"; only Gemini 3.1 Pro correctly identifies it (99%)
+- **Crema catalana**: All 4 models identify as "crème brûlée" (84-100%)
+- **Soup ingredients**: No model identifies chorizo or butter beans; all say generic "tomato soup"
+- **Stuffed pork loin**: Claude correctly identifies stuffing + pork (MAE 4.8g); GPT-5.4 says "chicken + stuffing" (wrong meat)
+- **Pizza**: Gemini models add burrata salad from adjacent plate in 30-74% of queries
+- **Churros**: Identification varies; Claude sometimes says "mille crepe cake" in realtime data
+
+Food misidentification — not just portion estimation error — is a significant contributor to carbohydrate estimation failures and is discussed in the Diabetologia manuscript.
+
 ## Reproducibility
 
 All queries used an identical prompt (SHA-256: see `batch_common.PROMPT_SHA256`), temperature 0.01, and independent stateless API calls. The complete dataset (26,904 results) is available as a supplementary data file.
