@@ -1,0 +1,1360 @@
+{
+ "seed": 20260923,
+ "n_boot": 5000,
+ "draws": 10000,
+ "per_photograph": {
+  "Claude Sonnet 4.6": {
+   "IMG-20260410-WA0016.jpg": {
+    "n": 510,
+    "mean": 40.13227450980392,
+    "median": 38.555,
+    "cv_pct": 6.573447220872964,
+    "range_g": 7.734999999999992,
+    "p5_p95_g": 6.574999999999996
+   },
+   "IMG-20260410-WA0017.jpg": {
+    "n": 510,
+    "mean": 147.34760784313724,
+    "median": 145.75,
+    "cv_pct": 1.9785277427210435,
+    "range_g": 26.14999999999999,
+    "p5_p95_g": 6.840000000000003
+   },
+   "IMG-20260410-WA0018.jpg": {
+    "n": 510,
+    "mean": 76.65925882352941,
+    "median": 76.17,
+    "cv_pct": 3.2115641346898434,
+    "range_g": 12.260000000000005,
+    "p5_p95_g": 7.810000000000002
+   },
+   "IMG-20260410-WA0019.jpg": {
+    "n": 510,
+    "mean": 29.870588235294118,
+    "median": 29.25,
+    "cv_pct": 2.7773995970911365,
+    "range_g": 4.5,
+    "p5_p95_g": 1.5
+   },
+   "IMG-20260410-WA0020.jpg": {
+    "n": 510,
+    "mean": 117.11814705882352,
+    "median": 101.75,
+    "cv_pct": 29.202247712304985,
+    "range_g": 135.59000000000003,
+    "p5_p95_g": 107.50999999999996
+   },
+   "IMG_20200412_154249.jpg": {
+    "n": 510,
+    "mean": 58.37683333333333,
+    "median": 61.209999999999994,
+    "cv_pct": 15.10809565538024,
+    "range_g": 37.95,
+    "p5_p95_g": 26.005499999999998
+   },
+   "IMG_20250915_112359.jpg": {
+    "n": 510,
+    "mean": 50.92568627450979,
+    "median": 51.15,
+    "cv_pct": 1.7570247871322373,
+    "range_g": 3.299999999999997,
+    "p5_p95_g": 3.299999999999997
+   },
+   "IMG_20260209_192318.jpg": {
+    "n": 510,
+    "mean": 47.02611764705883,
+    "median": 47.82,
+    "cv_pct": 1.922880277024137,
+    "range_g": 3.8800000000000026,
+    "p5_p95_g": 1.9600000000000009
+   },
+   "IMG_20260210_142258.jpg": {
+    "n": 510,
+    "mean": 28.193247058823538,
+    "median": 28.18,
+    "cv_pct": 0.2985684885326441,
+    "range_g": 1.2800000000000011,
+    "p5_p95_g": 0.19200000000000017
+   },
+   "MVIMG_20260222_204918.jpg": {
+    "n": 510,
+    "mean": 61.72411764705882,
+    "median": 62.285000000000004,
+    "cv_pct": 2.4085569054330844,
+    "range_g": 14.11,
+    "p5_p95_g": 4.009999999999998
+   },
+   "MVIMG_20260303_200132.jpg": {
+    "n": 510,
+    "mean": 83.94341176470587,
+    "median": 83.03999999999999,
+    "cv_pct": 2.092484205925667,
+    "range_g": 11.83999999999999,
+    "p5_p95_g": 3.0
+   },
+   "MVIMG_20260304_120022.jpg": {
+    "n": 510,
+    "mean": 49.356862745098034,
+    "median": 49.3,
+    "cv_pct": 0.8154389910956249,
+    "range_g": 2.9000000000000057,
+    "p5_p95_g": 0.0
+   },
+   "MVIMG_20260308_142023.jpg": {
+    "n": 510,
+    "mean": 44.78790196078431,
+    "median": 44.82,
+    "cv_pct": 2.8040765247724213,
+    "range_g": 8.589999999999996,
+    "p5_p95_g": 3.72049999999993
+   }
+  },
+  "GPT-5.4": {
+   "IMG-20260410-WA0016.jpg": {
+    "n": 560,
+    "mean": 67.88285714285715,
+    "median": 70.4,
+    "cv_pct": 6.314629319472132,
+    "range_g": 18.400000000000006,
+    "p5_p95_g": 8.800000000000004
+   },
+   "IMG-20260410-WA0017.jpg": {
+    "n": 560,
+    "mean": 139.88118749999998,
+    "median": 145.6,
+    "cv_pct": 8.433034898554837,
+    "range_g": 40.80000000000001,
+    "p5_p95_g": 29.000000000000014
+   },
+   "IMG-20260410-WA0018.jpg": {
+    "n": 561,
+    "mean": 89.27713903743316,
+    "median": 88.596,
+    "cv_pct": 4.840699111713674,
+    "range_g": 22.75,
+    "p5_p95_g": 13.894000000000005
+   },
+   "IMG-20260410-WA0019.jpg": {
+    "n": 561,
+    "mean": 38.4283422459893,
+    "median": 39.0,
+    "cv_pct": 2.7652184357646825,
+    "range_g": 2.6000000000000014,
+    "p5_p95_g": 2.6000000000000014
+   },
+   "IMG-20260410-WA0020.jpg": {
+    "n": 560,
+    "mean": 135.33203571428572,
+    "median": 140.0,
+    "cv_pct": 14.483120647653033,
+    "range_g": 165.6,
+    "p5_p95_g": 50.08
+   },
+   "IMG_20200412_154249.jpg": {
+    "n": 560,
+    "mean": 54.86785714285714,
+    "median": 56.185,
+    "cv_pct": 8.641338967009984,
+    "range_g": 25.94999999999999,
+    "p5_p95_g": 14.980000000000004
+   },
+   "IMG_20250915_112359.jpg": {
+    "n": 559,
+    "mean": 32.64767441860465,
+    "median": 31.85,
+    "cv_pct": 7.927779730163852,
+    "range_g": 14.7,
+    "p5_p95_g": 9.799999999999997
+   },
+   "IMG_20260209_192318.jpg": {
+    "n": 559,
+    "mean": 61.28552772808587,
+    "median": 67.2,
+    "cv_pct": 10.040411893035031,
+    "range_g": 16.14999999999999,
+    "p5_p95_g": 12.25
+   },
+   "IMG_20260210_142258.jpg": {
+    "n": 559,
+    "mean": 73.88568694096601,
+    "median": 80.25,
+    "cv_pct": 19.231572081959186,
+    "range_g": 55.72,
+    "p5_p95_g": 49.60000000000001
+   },
+   "MVIMG_20260222_204918.jpg": {
+    "n": 559,
+    "mean": 61.6184740608229,
+    "median": 63.08,
+    "cv_pct": 10.317537767635816,
+    "range_g": 39.24,
+    "p5_p95_g": 20.43
+   },
+   "MVIMG_20260303_200132.jpg": {
+    "n": 560,
+    "mean": 89.2169285714286,
+    "median": 89.34,
+    "cv_pct": 0.475374584676391,
+    "range_g": 2.6000000000000085,
+    "p5_p95_g": 1.3000000000000114
+   },
+   "MVIMG_20260304_120022.jpg": {
+    "n": 560,
+    "mean": 44.09521428571429,
+    "median": 42.75,
+    "cv_pct": 8.171206245108404,
+    "range_g": 9.549999999999997,
+    "p5_p95_g": 9.399999999999999
+   },
+   "MVIMG_20260308_142023.jpg": {
+    "n": 561,
+    "mean": 77.42884135472372,
+    "median": 82.485,
+    "cv_pct": 19.038239807458122,
+    "range_g": 61.675,
+    "p5_p95_g": 49.57
+   }
+  },
+  "Gemini 3.1 Pro": {
+   "IMG-20260410-WA0020.jpg": {
+    "n": 500,
+    "mean": 122.88241999999998,
+    "median": 120.0,
+    "cv_pct": 30.0056895724611,
+    "range_g": 162.04,
+    "p5_p95_g": 122.125
+   },
+   "IMG_20200412_154249.jpg": {
+    "n": 500,
+    "mean": 52.07466,
+    "median": 51.300000000000004,
+    "cv_pct": 10.173765612046942,
+    "range_g": 28.810000000000002,
+    "p5_p95_g": 20.849999999999994
+   },
+   "IMG_20250915_112359.jpg": {
+    "n": 500,
+    "mean": 51.25168000000001,
+    "median": 52.2,
+    "cv_pct": 5.306892200333342,
+    "range_g": 16.5,
+    "p5_p95_g": 7.600000000000001
+   },
+   "IMG_20260209_192318.jpg": {
+    "n": 500,
+    "mean": 50.074046,
+    "median": 48.024,
+    "cv_pct": 10.30531364625339,
+    "range_g": 22.872,
+    "p5_p95_g": 15.006
+   },
+   "IMG_20260210_142258.jpg": {
+    "n": 500,
+    "mean": 28.273918,
+    "median": 27.704,
+    "cv_pct": 6.9392792654058155,
+    "range_g": 12.045000000000002,
+    "p5_p95_g": 6.682000000000002
+   },
+   "MVIMG_20260222_204918.jpg": {
+    "n": 500,
+    "mean": 93.732996,
+    "median": 94.8,
+    "cv_pct": 12.409763818122793,
+    "range_g": 61.52999999999999,
+    "p5_p95_g": 35.632499999999965
+   },
+   "MVIMG_20260303_200132.jpg": {
+    "n": 500,
+    "mean": 86.0246,
+    "median": 85.35,
+    "cv_pct": 10.596204182132904,
+    "range_g": 47.7,
+    "p5_p95_g": 35.16999999999999
+   },
+   "MVIMG_20260304_120022.jpg": {
+    "n": 500,
+    "mean": 43.971779999999995,
+    "median": 45.5,
+    "cv_pct": 17.576621343341817,
+    "range_g": 27.35,
+    "p5_p95_g": 23.599999999999998
+   },
+   "MVIMG_20260308_142023.jpg": {
+    "n": 500,
+    "mean": 27.272519999999997,
+    "median": 28.65,
+    "cv_pct": 22.70573321784795,
+    "range_g": 27.090000000000003,
+    "p5_p95_g": 18.071999999999992
+   },
+   "IMG-20260410-WA0016.jpg": {
+    "n": 500,
+    "mean": 57.1188,
+    "median": 56.0,
+    "cv_pct": 17.18486131555542,
+    "range_g": 51.0,
+    "p5_p95_g": 28.479999999999933
+   },
+   "IMG-20260410-WA0017.jpg": {
+    "n": 500,
+    "mean": 118.56681999999999,
+    "median": 117.0,
+    "cv_pct": 8.260051499172222,
+    "range_g": 64.0,
+    "p5_p95_g": 27.074999999999974
+   },
+   "IMG-20260410-WA0018.jpg": {
+    "n": 495,
+    "mean": 91.10009090909091,
+    "median": 90.65,
+    "cv_pct": 7.6529826507138,
+    "range_g": 42.425,
+    "p5_p95_g": 24.235499999999988
+   },
+   "IMG-20260410-WA0019.jpg": {
+    "n": 500,
+    "mean": 29.129324,
+    "median": 28.7,
+    "cv_pct": 8.337104663891552,
+    "range_g": 17.599999999999998,
+    "p5_p95_g": 8.956499999999995
+   }
+  },
+  "Gemini 2.5 Pro": {
+   "IMG_20260209_192318.jpg": {
+    "n": 500,
+    "mean": 57.733945999999996,
+    "median": 57.05,
+    "cv_pct": 8.796302984193371,
+    "range_g": 35.849999999999994,
+    "p5_p95_g": 15.36209999999997
+   },
+   "IMG_20260210_142258.jpg": {
+    "n": 500,
+    "mean": 27.863450399999998,
+    "median": 27.852,
+    "cv_pct": 3.923261539067088,
+    "range_g": 11.330000000000002,
+    "p5_p95_g": 2.7878000000000007
+   },
+   "MVIMG_20260222_204918.jpg": {
+    "n": 500,
+    "mean": 86.18377600000001,
+    "median": 87.8875,
+    "cv_pct": 13.853532476788766,
+    "range_g": 67.925,
+    "p5_p95_g": 40.38949999999999
+   },
+   "MVIMG_20260303_200132.jpg": {
+    "n": 500,
+    "mean": 92.1048572,
+    "median": 88.99,
+    "cv_pct": 7.60457717372159,
+    "range_g": 46.554,
+    "p5_p95_g": 20.726000000000013
+   },
+   "MVIMG_20260304_120022.jpg": {
+    "n": 500,
+    "mean": 47.868346,
+    "median": 48.0,
+    "cv_pct": 10.966769348374902,
+    "range_g": 22.769999999999996,
+    "p5_p95_g": 15.064
+   },
+   "MVIMG_20260308_142023.jpg": {
+    "n": 500,
+    "mean": 33.69824,
+    "median": 19.990000000000002,
+    "cv_pct": 68.26501046848787,
+    "range_g": 118.61999999999998,
+    "p5_p95_g": 59.495999999999995
+   },
+   "IMG-20260410-WA0016.jpg": {
+    "n": 500,
+    "mean": 86.745988,
+    "median": 85.0,
+    "cv_pct": 23.315547669443944,
+    "range_g": 107.1,
+    "p5_p95_g": 69.015
+   },
+   "IMG-20260410-WA0017.jpg": {
+    "n": 500,
+    "mean": 128.96292,
+    "median": 127.775,
+    "cv_pct": 10.098861693898725,
+    "range_g": 67.48,
+    "p5_p95_g": 44.6755
+   },
+   "IMG-20260410-WA0018.jpg": {
+    "n": 500,
+    "mean": 70.9396716,
+    "median": 69.73,
+    "cv_pct": 7.100833206443895,
+    "range_g": 27.042,
+    "p5_p95_g": 16.08699999999999
+   },
+   "IMG-20260410-WA0019.jpg": {
+    "n": 500,
+    "mean": 28.158900000000003,
+    "median": 28.28,
+    "cv_pct": 11.861563689419365,
+    "range_g": 12.375000000000004,
+    "p5_p95_g": 10.830000000000002
+   },
+   "IMG-20260410-WA0020.jpg": {
+    "n": 500,
+    "mean": 222.19331999999997,
+    "median": 214.2,
+    "cv_pct": 26.77281253942583,
+    "range_g": 428.7,
+    "p5_p95_g": 194.0875
+   },
+   "IMG_20200412_154249.jpg": {
+    "n": 500,
+    "mean": 48.749880999999995,
+    "median": 47.485,
+    "cv_pct": 20.967923952909253,
+    "range_g": 61.6,
+    "p5_p95_g": 32.91
+   },
+   "IMG_20250915_112359.jpg": {
+    "n": 500,
+    "mean": 49.084226,
+    "median": 49.32,
+    "cv_pct": 7.0324804048326,
+    "range_g": 29.699999999999996,
+    "p5_p95_g": 10.902999999999992
+   }
+  }
+ },
+ "reproducibility": {
+  "by_model": {
+   "Claude Sonnet 4.6": {
+    "n_photographs": 13,
+    "cv_median": [
+     2.4085569054330844,
+     1.922880277024137,
+     3.2115641346898434
+    ],
+    "cv_mean": 5.457716326382771,
+    "cv_max": 29.202247712304985,
+    "insulin_range_median_u": [
+     0.8589999999999997,
+     0.38800000000000023,
+     1.411
+    ],
+    "photographs_range_over_2u": 3,
+    "photographs_range_over_5u": 1
+   },
+   "GPT-5.4": {
+    "n_photographs": 13,
+    "cv_median": [
+     8.433034898554837,
+     6.314629319472132,
+     10.317537767635816
+    ],
+    "cv_mean": 9.28308949924655,
+    "cv_max": 19.231572081959186,
+    "insulin_range_median_u": [
+     2.275,
+     1.47,
+     4.080000000000001
+    ],
+    "photographs_range_over_2u": 7,
+    "photographs_range_over_5u": 3
+   },
+   "Gemini 3.1 Pro": {
+    "n_photographs": 13,
+    "cv_median": [
+     10.30531364625339,
+     8.260051499172222,
+     17.18486131555542
+    ],
+    "cv_mean": 12.881097152867618,
+    "cv_max": 30.0056895724611,
+    "insulin_range_median_u": [
+     2.8810000000000002,
+     2.2872,
+     5.1
+    ],
+    "photographs_range_over_2u": 10,
+    "photographs_range_over_5u": 4
+   },
+   "Gemini 2.5 Pro": {
+    "n_photographs": 13,
+    "cv_median": [
+     10.966769348374902,
+     7.60457717372159,
+     20.967923952909253
+    ],
+    "cv_mean": 16.966113626692863,
+    "cv_max": 68.26501046848787,
+    "insulin_range_median_u": [
+     4.6554,
+     2.7042,
+     6.7924999999999995
+    ],
+    "photographs_range_over_2u": 11,
+    "photographs_range_over_5u": 6
+   }
+  },
+  "paired_cv": [
+   {
+    "a": "Claude Sonnet 4.6",
+    "b": "GPT-5.4",
+    "n": 13,
+    "median_diff_points": -6.170754943031615,
+    "a_higher_in": 5,
+    "wilcoxon_p": 0.146484375
+   },
+   {
+    "a": "Claude Sonnet 4.6",
+    "b": "Gemini 3.1 Pro",
+    "n": 13,
+    "median_diff_points": -6.6407107768731715,
+    "a_higher_in": 1,
+    "wilcoxon_p": 0.001708984375
+   },
+   {
+    "a": "Claude Sonnet 4.6",
+    "b": "Gemini 2.5 Pro",
+    "n": 13,
+    "median_diff_points": -6.873422707169234,
+    "a_higher_in": 1,
+    "wilcoxon_p": 0.00048828125
+   },
+   {
+    "a": "GPT-5.4",
+    "b": "Gemini 3.1 Pro",
+    "n": 13,
+    "median_diff_points": -2.812283539000126,
+    "a_higher_in": 3,
+    "wilcoxon_p": 0.057373046875
+   },
+   {
+    "a": "GPT-5.4",
+    "b": "Gemini 2.5 Pro",
+    "n": 13,
+    "median_diff_points": -3.53599470915295,
+    "a_higher_in": 3,
+    "wilcoxon_p": 0.026611328125
+   },
+   {
+    "a": "Gemini 3.1 Pro",
+    "b": "Gemini 2.5 Pro",
+    "n": 13,
+    "median_diff_points": -1.4437686586659737,
+    "a_higher_in": 6,
+    "wilcoxon_p": 0.541748046875
+   }
+  ]
+ },
+ "accuracy": {
+  "by_model": {
+   "Claude Sonnet 4.6": {
+    "strong": {
+     "n_photographs": 5,
+     "n_queries": 2550,
+     "mae_photograph_level": [
+      8.739091764705881,
+      4.701923137254901,
+      12.097391372549021
+     ],
+     "mae_query_level_ci": [
+      8.739091764705881,
+      8.56985948417555,
+      8.908324045236212
+     ],
+     "bias_g": -1.1731623529411772,
+     "within_20g_pct": 100.0
+    },
+    "all_nine": {
+     "n_photographs": 9,
+     "n_queries": 4590,
+     "mae_photograph_level": [
+      11.583023747276687,
+      7.310179738562092,
+      16.175045522875806
+     ],
+     "mae_query_level_ci": [
+      11.583023747276687,
+      11.36690137831498,
+      11.799146116238395
+     ],
+     "bias_g": 1.9407169934640514,
+     "within_20g_pct": 86.44880174291939
+    }
+   },
+   "GPT-5.4": {
+    "strong": {
+     "n_photographs": 5,
+     "n_queries": 2797,
+     "mae_photograph_level": [
+      17.360918004088933,
+      5.592518553539484,
+      29.129317454638386
+     ],
+     "mae_query_level_ci": [
+      17.362055416517702,
+      16.80384205188305,
+      17.920268781152355
+     ],
+     "bias_g": 11.661951734000718,
+     "within_20g_pct": 63.21058276725062
+    },
+    "all_nine": {
+     "n_photographs": 9,
+     "n_queries": 5037,
+     "mae_photograph_level": [
+      20.19742575580674,
+      11.729848768770939,
+      28.680683954817223
+     ],
+     "mae_query_level_ci": [
+      20.203548143736352,
+      19.790001616406645,
+      20.61709467106606
+     ],
+     "bias_g": 12.894235854675403,
+     "within_20g_pct": 54.77466746079015
+    }
+   },
+   "Gemini 3.1 Pro": {
+    "strong": {
+     "n_photographs": 5,
+     "n_queries": 2500,
+     "mae_photograph_level": [
+      12.487615199999999,
+      8.3960244,
+      18.1259748
+     ],
+     "mae_query_level_ci": [
+      12.487615199999999,
+      12.172280021003466,
+      12.802950378996531
+     ],
+     "bias_g": 1.8380448000000005,
+     "within_20g_pct": 87.8
+    },
+    "all_nine": {
+     "n_photographs": 9,
+     "n_queries": 4500,
+     "mae_photograph_level": [
+      13.75163911111111,
+      9.549206855555555,
+      18.605525416666662
+     ],
+     "mae_query_level_ci": [
+      13.75163911111111,
+      13.468951875894408,
+      14.034326346327813
+     ],
+     "bias_g": 4.755,
+     "within_20g_pct": 77.37777777777778
+    }
+   },
+   "Gemini 2.5 Pro": {
+    "strong": {
+     "n_photographs": 5,
+     "n_queries": 2500,
+     "mae_photograph_level": [
+      16.60398392,
+      5.432099600000001,
+      35.02665191999999
+     ],
+     "mae_query_level_ci": [
+      16.603983919999997,
+      15.797914428675224,
+      17.41005341132477
+     ],
+     "bias_g": 9.55919128,
+     "within_20g_pct": 80.76
+    },
+    "all_nine": {
+     "n_photographs": 9,
+     "n_queries": 4500,
+     "mae_photograph_level": [
+      17.714354422222225,
+      8.88851283277778,
+      28.76786053333333
+     ],
+     "mae_query_level_ci": [
+      17.714354422222222,
+      17.205060537813065,
+      18.22364830663138
+     ],
+     "bias_g": 9.225856733333332,
+     "within_20g_pct": 68.77777777777779
+    }
+   }
+  },
+  "paired_mae": [
+   {
+    "a": "Claude Sonnet 4.6",
+    "b": "GPT-5.4",
+    "n": 9,
+    "mean_diff_g": -8.614402008530057,
+    "ci": [
+     -17.746905050032492,
+     0.02572824806855026
+    ],
+    "a_lower_in": 6,
+    "wilcoxon_p": 0.30078125,
+    "sd_g": 15.09989335998651,
+    "n_for_5g": 72,
+    "n_for_observed": 25
+   },
+   {
+    "a": "Claude Sonnet 4.6",
+    "b": "Gemini 3.1 Pro",
+    "n": 9,
+    "mean_diff_g": -2.1686153638344243,
+    "ci": [
+     -6.954264442156866,
+     1.6584815462962859
+    ],
+    "a_lower_in": 5,
+    "wilcoxon_p": 0.5703125,
+    "sd_g": 6.975449688824551,
+    "n_for_5g": 16,
+    "n_for_observed": 82
+   },
+   {
+    "a": "Claude Sonnet 4.6",
+    "b": "Gemini 2.5 Pro",
+    "n": 9,
+    "mean_diff_g": -6.131330674945535,
+    "ci": [
+     -17.97942530942266,
+     2.6874213339651414
+    ],
+    "a_lower_in": 5,
+    "wilcoxon_p": 0.65234375,
+    "sd_g": 17.230355678002102,
+    "n_for_5g": 94,
+    "n_for_observed": 62
+   },
+   {
+    "a": "GPT-5.4",
+    "b": "Gemini 3.1 Pro",
+    "n": 9,
+    "mean_diff_g": 6.445786644695632,
+    "ci": [
+     0.2835023690944744,
+     13.50904017182292
+    ],
+    "a_lower_in": 3,
+    "wilcoxon_p": 0.30078125,
+    "sd_g": 10.992229267493272,
+    "n_for_5g": 38,
+    "n_for_observed": 23
+   },
+   {
+    "a": "GPT-5.4",
+    "b": "Gemini 2.5 Pro",
+    "n": 9,
+    "mean_diff_g": 2.4830713335845207,
+    "ci": [
+     -4.628357797741574,
+     9.467789355295654
+    ],
+    "a_lower_in": 5,
+    "wilcoxon_p": 0.734375,
+    "sd_g": 11.79292582538176,
+    "n_for_5g": 44,
+    "n_for_observed": 178
+   },
+   {
+    "a": "Gemini 3.1 Pro",
+    "b": "Gemini 2.5 Pro",
+    "n": 9,
+    "mean_diff_g": -3.9627153111111113,
+    "ci": [
+     -11.341529931666663,
+     1.5727927761111091
+    ],
+    "a_lower_in": 5,
+    "wilcoxon_p": 0.49609375,
+    "sd_g": 10.820234744178268,
+    "n_for_5g": 37,
+    "n_for_observed": 59
+   }
+  ],
+  "photographs_needed": {}
+ },
+ "dosing_thresholds": {
+  "Claude Sonnet 4.6": {
+   "5": {
+    "one_query_2u": 0.17019607843137255,
+    "one_query_5u": 0.0,
+    "twenty_query_2u": 0.19998
+   },
+   "10": {
+    "one_query_2u": 0.0,
+    "one_query_5u": 0.0,
+    "twenty_query_2u": 0.0
+   },
+   "20": {
+    "one_query_2u": 0.0,
+    "one_query_5u": 0.0,
+    "twenty_query_2u": 0.0
+   }
+  },
+  "GPT-5.4": {
+   "5": {
+    "one_query_2u": 0.378175313059034,
+    "one_query_5u": 0.3656702018911321,
+    "twenty_query_2u": 0.4
+   },
+   "10": {
+    "one_query_2u": 0.3678143368259647,
+    "one_query_5u": 0.0,
+    "twenty_query_2u": 0.4
+   },
+   "20": {
+    "one_query_2u": 0.10232558139534884,
+    "one_query_5u": 0.0,
+    "twenty_query_2u": 0.10398
+   }
+  },
+  "Gemini 3.1 Pro": {
+   "5": {
+    "one_query_2u": 0.3184,
+    "one_query_5u": 0.0948,
+    "twenty_query_2u": 0.39246
+   },
+   "10": {
+    "one_query_2u": 0.122,
+    "one_query_5u": 0.0,
+    "twenty_query_2u": 0.17724
+   },
+   "20": {
+    "one_query_2u": 0.0068000000000000005,
+    "one_query_5u": 0.0,
+    "twenty_query_2u": 0.0
+   }
+  },
+  "Gemini 2.5 Pro": {
+   "5": {
+    "one_query_2u": 0.27,
+    "one_query_5u": 0.18280000000000002,
+    "twenty_query_2u": 0.21181999999999998
+   },
+   "10": {
+    "one_query_2u": 0.1924,
+    "one_query_5u": 0.11639999999999999,
+    "twenty_query_2u": 0.2
+   },
+   "20": {
+    "one_query_2u": 0.1492,
+    "one_query_5u": 0.0008,
+    "twenty_query_2u": 0.19846
+   }
+  }
+ },
+ "failures": {
+  "Claude Sonnet 4.6": {
+   "submitted": 6630,
+   "parsed": 6630,
+   "failed": 0,
+   "failed_pct": 0.0,
+   "per_photograph": {},
+   "messages": []
+  },
+  "GPT-5.4": {
+   "submitted": 7279,
+   "parsed": 7279,
+   "failed": 0,
+   "failed_pct": 0.0,
+   "per_photograph": {},
+   "messages": []
+  },
+  "Gemini 3.1 Pro": {
+   "submitted": 6500,
+   "parsed": 6495,
+   "failed": 5,
+   "failed_pct": 0.07692307692307693,
+   "per_photograph": {
+    "Eggs benedict": {
+     "failed": 5,
+     "of": 500,
+     "pct": 1.0
+    }
+   },
+   "messages": [
+    "Expecting ',' delimiter: line 117 column 6 (char 4186)",
+    "Expecting ',' delimiter: line 117 column 6 (char 4360)",
+    "Expecting ',' delimiter: line 136 column 6 (char 5112)",
+    "Expecting ',' delimiter: line 41 column 6 (char 1401)",
+    "Expecting ',' delimiter: line 60 column 6 (char 2222)"
+   ]
+  },
+  "Gemini 2.5 Pro": {
+   "submitted": 6500,
+   "parsed": 6500,
+   "failed": 0,
+   "failed_pct": 0.0,
+   "per_photograph": {},
+   "messages": []
+  }
+ },
+ "aggregation": {
+  "Claude Sonnet 4.6": {
+   "1": {
+    "off_own_10g_pct": 5.156923076923077,
+    "width_median_g": 3.299999999999997,
+    "over_2u_strong_pct": 0.0,
+    "mae_strong_g": 8.7499378,
+    "per_photograph_strong": {
+     "Breakfast burrito": {
+      "typical_error_g": 4.555,
+      "over_2u": 0.0
+     },
+     "Bakewell tart": {
+      "typical_error_g": 11.149999999999999,
+      "over_2u": 0.0
+     },
+     "Soup with bread": {
+      "typical_error_g": -12.18,
+      "over_2u": 0.0
+     },
+     "Cheese sandwich": {
+      "typical_error_g": -11.82,
+      "over_2u": 0.0
+     },
+     "Bakery cookie": {
+      "typical_error_g": 1.7999999999999972,
+      "over_2u": 0.0
+     }
+    }
+   },
+   "3": {
+    "off_own_10g_pct": 2.8030769230769232,
+    "width_median_g": 2.1999999999999957,
+    "over_2u_strong_pct": 0.0,
+    "mae_strong_g": 8.72582796,
+    "per_photograph_strong": {
+     "Breakfast burrito": {
+      "typical_error_g": 4.555,
+      "over_2u": 0.0
+     },
+     "Bakewell tart": {
+      "typical_error_g": 11.149999999999999,
+      "over_2u": 0.0
+     },
+     "Soup with bread": {
+      "typical_error_g": -12.18,
+      "over_2u": 0.0
+     },
+     "Cheese sandwich": {
+      "typical_error_g": -11.82,
+      "over_2u": 0.0
+     },
+     "Bakery cookie": {
+      "typical_error_g": 1.7999999999999972,
+      "over_2u": 0.0
+     }
+    }
+   },
+   "5": {
+    "off_own_10g_pct": 1.8146153846153847,
+    "width_median_g": 1.720000000000006,
+    "over_2u_strong_pct": 0.0,
+    "mae_strong_g": 8.708110880000001,
+    "per_photograph_strong": {
+     "Breakfast burrito": {
+      "typical_error_g": 4.555,
+      "over_2u": 0.0
+     },
+     "Bakewell tart": {
+      "typical_error_g": 11.149999999999999,
+      "over_2u": 0.0
+     },
+     "Soup with bread": {
+      "typical_error_g": -12.18,
+      "over_2u": 0.0
+     },
+     "Cheese sandwich": {
+      "typical_error_g": -11.82,
+      "over_2u": 0.0
+     },
+     "Bakery cookie": {
+      "typical_error_g": 1.7999999999999972,
+      "over_2u": 0.0
+     }
+    }
+   },
+   "20": {
+    "off_own_10g_pct": 0.14153846153846156,
+    "width_median_g": 0.9450000000000074,
+    "over_2u_strong_pct": 0.0,
+    "mae_strong_g": 8.6270386,
+    "per_photograph_strong": {
+     "Breakfast burrito": {
+      "typical_error_g": 4.555,
+      "over_2u": 0.0
+     },
+     "Bakewell tart": {
+      "typical_error_g": 11.149999999999999,
+      "over_2u": 0.0
+     },
+     "Soup with bread": {
+      "typical_error_g": -12.18,
+      "over_2u": 0.0
+     },
+     "Cheese sandwich": {
+      "typical_error_g": -11.82,
+      "over_2u": 0.0
+     },
+     "Bakery cookie": {
+      "typical_error_g": 1.7999999999999972,
+      "over_2u": 0.0
+     }
+    }
+   }
+  },
+  "GPT-5.4": {
+   "1": {
+    "off_own_10g_pct": 12.764615384615386,
+    "width_median_g": 13.894000000000005,
+    "over_2u_strong_pct": 36.592,
+    "mae_strong_g": 17.28308568,
+    "per_photograph_strong": {
+     "Breakfast burrito": {
+      "typical_error_g": 36.400000000000006,
+      "over_2u": 0.9573
+     },
+     "Bakewell tart": {
+      "typical_error_g": -8.149999999999999,
+      "over_2u": 0.0
+     },
+     "Soup with bread": {
+      "typical_error_g": 7.200000000000003,
+      "over_2u": 0.0
+     },
+     "Cheese sandwich": {
+      "typical_error_g": 40.25,
+      "over_2u": 0.8723
+     },
+     "Bakery cookie": {
+      "typical_error_g": -4.75,
+      "over_2u": 0.0
+     }
+    }
+   },
+   "3": {
+    "off_own_10g_pct": 7.916923076923076,
+    "width_median_g": 10.083499999999944,
+    "over_2u_strong_pct": 39.089999999999996,
+    "mae_strong_g": 18.071326,
+    "per_photograph_strong": {
+     "Breakfast burrito": {
+      "typical_error_g": 36.400000000000006,
+      "over_2u": 0.9949
+     },
+     "Bakewell tart": {
+      "typical_error_g": -8.149999999999999,
+      "over_2u": 0.0
+     },
+     "Soup with bread": {
+      "typical_error_g": 7.200000000000003,
+      "over_2u": 0.0
+     },
+     "Cheese sandwich": {
+      "typical_error_g": 40.25,
+      "over_2u": 0.9596
+     },
+     "Bakery cookie": {
+      "typical_error_g": -4.75,
+      "over_2u": 0.0
+     }
+    }
+   },
+   "5": {
+    "off_own_10g_pct": 6.256923076923076,
+    "width_median_g": 8.550000000000004,
+    "over_2u_strong_pct": 39.67,
+    "mae_strong_g": 18.34182512,
+    "per_photograph_strong": {
+     "Breakfast burrito": {
+      "typical_error_g": 36.400000000000006,
+      "over_2u": 0.9995
+     },
+     "Bakewell tart": {
+      "typical_error_g": -8.149999999999999,
+      "over_2u": 0.0
+     },
+     "Soup with bread": {
+      "typical_error_g": 7.200000000000003,
+      "over_2u": 0.0
+     },
+     "Cheese sandwich": {
+      "typical_error_g": 40.25,
+      "over_2u": 0.984
+     },
+     "Bakery cookie": {
+      "typical_error_g": -4.75,
+      "over_2u": 0.0
+     }
+    }
+   },
+   "20": {
+    "off_own_10g_pct": 3.610769230769231,
+    "width_median_g": 5.612499999999997,
+    "over_2u_strong_pct": 40.0,
+    "mae_strong_g": 18.594422450000003,
+    "per_photograph_strong": {
+     "Breakfast burrito": {
+      "typical_error_g": 36.400000000000006,
+      "over_2u": 1.0
+     },
+     "Bakewell tart": {
+      "typical_error_g": -8.149999999999999,
+      "over_2u": 0.0
+     },
+     "Soup with bread": {
+      "typical_error_g": 7.200000000000003,
+      "over_2u": 0.0
+     },
+     "Cheese sandwich": {
+      "typical_error_g": 40.25,
+      "over_2u": 1.0
+     },
+     "Bakery cookie": {
+      "typical_error_g": -4.75,
+      "over_2u": 0.0
+     }
+    }
+   }
+  },
+  "Gemini 3.1 Pro": {
+   "1": {
+    "off_own_10g_pct": 21.695384615384615,
+    "width_median_g": 23.599999999999998,
+    "over_2u_strong_pct": 12.116,
+    "mae_strong_g": 12.471697260000003,
+    "per_photograph_strong": {
+     "Bakewell tart": {
+      "typical_error_g": 12.200000000000003,
+      "over_2u": 0.0
+     },
+     "Soup with bread": {
+      "typical_error_g": -11.975999999999999,
+      "over_2u": 0.0
+     },
+     "Cheese sandwich": {
+      "typical_error_g": -12.296,
+      "over_2u": 0.0
+     },
+     "Bakery cookie": {
+      "typical_error_g": -2.0,
+      "over_2u": 0.0
+     },
+     "Breakfast burrito": {
+      "typical_error_g": 22.0,
+      "over_2u": 0.6058
+     }
+    }
+   },
+   "3": {
+    "off_own_10g_pct": 12.390769230769228,
+    "width_median_g": 15.700000000000003,
+    "over_2u_strong_pct": 13.466000000000001,
+    "mae_strong_g": 12.35656964,
+    "per_photograph_strong": {
+     "Bakewell tart": {
+      "typical_error_g": 12.200000000000003,
+      "over_2u": 0.0
+     },
+     "Soup with bread": {
+      "typical_error_g": -11.975999999999999,
+      "over_2u": 0.0
+     },
+     "Cheese sandwich": {
+      "typical_error_g": -12.296,
+      "over_2u": 0.0
+     },
+     "Bakery cookie": {
+      "typical_error_g": -2.0,
+      "over_2u": 0.0
+     },
+     "Breakfast burrito": {
+      "typical_error_g": 22.0,
+      "over_2u": 0.6733
+     }
+    }
+   },
+   "5": {
+    "off_own_10g_pct": 8.807692307692307,
+    "width_median_g": 12.600000000000001,
+    "over_2u_strong_pct": 14.078,
+    "mae_strong_g": 12.26264008,
+    "per_photograph_strong": {
+     "Bakewell tart": {
+      "typical_error_g": 12.200000000000003,
+      "over_2u": 0.0
+     },
+     "Soup with bread": {
+      "typical_error_g": -11.975999999999999,
+      "over_2u": 0.0
+     },
+     "Cheese sandwich": {
+      "typical_error_g": -12.296,
+      "over_2u": 0.0
+     },
+     "Bakery cookie": {
+      "typical_error_g": -2.0,
+      "over_2u": 0.0
+     },
+     "Breakfast burrito": {
+      "typical_error_g": 22.0,
+      "over_2u": 0.7039
+     }
+    }
+   },
+   "20": {
+    "off_own_10g_pct": 3.5284615384615385,
+    "width_median_g": 6.609624999999998,
+    "over_2u_strong_pct": 17.716,
+    "mae_strong_g": 12.163019459999997,
+    "per_photograph_strong": {
+     "Bakewell tart": {
+      "typical_error_g": 12.200000000000003,
+      "over_2u": 0.0
+     },
+     "Soup with bread": {
+      "typical_error_g": -11.975999999999999,
+      "over_2u": 0.0
+     },
+     "Cheese sandwich": {
+      "typical_error_g": -12.296,
+      "over_2u": 0.0
+     },
+     "Bakery cookie": {
+      "typical_error_g": -2.0,
+      "over_2u": 0.0
+     },
+     "Breakfast burrito": {
+      "typical_error_g": 22.0,
+      "over_2u": 0.8858
+     }
+    }
+   }
+  },
+  "Gemini 2.5 Pro": {
+   "1": {
+    "off_own_10g_pct": 22.812307692307694,
+    "width_median_g": 20.726000000000013,
+    "over_2u_strong_pct": 19.073999999999998,
+    "mae_strong_g": 16.57291781,
+    "per_photograph_strong": {
+     "Soup with bread": {
+      "typical_error_g": -2.950000000000003,
+      "over_2u": 0.0012
+     },
+     "Cheese sandwich": {
+      "typical_error_g": -12.148,
+      "over_2u": 0.0
+     },
+     "Bakery cookie": {
+      "typical_error_g": 0.5,
+      "over_2u": 0.0
+     },
+     "Breakfast burrito": {
+      "typical_error_g": 51.0,
+      "over_2u": 0.946
+     },
+     "Bakewell tart": {
+      "typical_error_g": 9.32,
+      "over_2u": 0.0065
+     }
+    }
+   },
+   "3": {
+    "off_own_10g_pct": 14.234615384615385,
+    "width_median_g": 13.060000000000002,
+    "over_2u_strong_pct": 19.886,
+    "mae_strong_g": 16.015823805999997,
+    "per_photograph_strong": {
+     "Soup with bread": {
+      "typical_error_g": -2.950000000000003,
+      "over_2u": 0.0
+     },
+     "Cheese sandwich": {
+      "typical_error_g": -12.148,
+      "over_2u": 0.0
+     },
+     "Bakery cookie": {
+      "typical_error_g": 0.5,
+      "over_2u": 0.0
+     },
+     "Breakfast burrito": {
+      "typical_error_g": 51.0,
+      "over_2u": 0.9939
+     },
+     "Bakewell tart": {
+      "typical_error_g": 9.32,
+      "over_2u": 0.0004
+     }
+    }
+   },
+   "5": {
+    "off_own_10g_pct": 10.563076923076922,
+    "width_median_g": 11.988,
+    "over_2u_strong_pct": 19.988,
+    "mae_strong_g": 15.814876596,
+    "per_photograph_strong": {
+     "Soup with bread": {
+      "typical_error_g": -2.950000000000003,
+      "over_2u": 0.0
+     },
+     "Cheese sandwich": {
+      "typical_error_g": -12.148,
+      "over_2u": 0.0
+     },
+     "Bakery cookie": {
+      "typical_error_g": 0.5,
+      "over_2u": 0.0
+     },
+     "Breakfast burrito": {
+      "typical_error_g": 51.0,
+      "over_2u": 0.9994
+     },
+     "Bakewell tart": {
+      "typical_error_g": 9.32,
+      "over_2u": 0.0
+     }
+    }
+   },
+   "20": {
+    "off_own_10g_pct": 3.2130769230769234,
+    "width_median_g": 9.25,
+    "over_2u_strong_pct": 20.0,
+    "mae_strong_g": 15.403603174999997,
+    "per_photograph_strong": {
+     "Soup with bread": {
+      "typical_error_g": -2.950000000000003,
+      "over_2u": 0.0
+     },
+     "Cheese sandwich": {
+      "typical_error_g": -12.148,
+      "over_2u": 0.0
+     },
+     "Bakery cookie": {
+      "typical_error_g": 0.5,
+      "over_2u": 0.0
+     },
+     "Breakfast burrito": {
+      "typical_error_g": 51.0,
+      "over_2u": 1.0
+     },
+     "Bakewell tart": {
+      "typical_error_g": 9.32,
+      "over_2u": 0.0
+     }
+    }
+   }
+  }
+ }
+}

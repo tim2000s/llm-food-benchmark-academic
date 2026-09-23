@@ -21,6 +21,14 @@ Reproducibility and accuracy benchmark for LLM vision API carbohydrate estimatio
 | `openai_sequential_submitter.py` | Sequential OpenAI submitter respecting enqueued-token limits |
 
 ### Analysis scripts
+
+`jamia_revision_analysis.py` holds the photograph-level analyses used in the revised
+manuscript: paired comparisons across the 13 photographs, bootstrap intervals over
+photographs (with the query-level interval shown alongside for comparison), dosing-error
+rates at 1 U per 5 g, 10 g and 20 g, parse failures by photograph, and a simulation of
+aggregating repeated queries. It writes `results/JAMIA_REVISION_TABLES.md`,
+`results/jamia_revision.json` and `figures/Figure_3_aggregation.png`, and makes no API calls.
+
 | Script | Description |
 |---|---|
 | `build_batch_dataset.py` | Consolidates batch results into a single analysis-ready dataset |
